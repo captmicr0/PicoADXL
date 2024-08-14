@@ -1,0 +1,288 @@
+(footprint "SOT-89-5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-89-5, http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf")
+	(tags "SOT-89-5")
+	(property "Reference" "REF**"
+		(at 0.6 2.75 180)
+		(layer "F.SilkS")
+		(uuid "40d5216c-30c2-4bf8-8758-4042d3fcca96")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Value" "WL2803K"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "14621e83-c651-450e-8740-921d79dad4ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_TO_SOT_SMD:SOT-89-5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9893bf30-d6d8-4f8c-b0da-1c2836173a53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810010040_WILLSEMI-Will-Semicon-WL2803K33-5-TR_C192927.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b167e3aa-04fe-4e23-af6a-9047afe487bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ultra low dropout, 800mA, CMOS LDO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f1f1171-3716-45ea-84da-410d9e52e4bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC#" "C192927"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "535e7ebb-4269-42ae-bc49-f1848c7480fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -2.36)
+		(end 1.25 -2.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc546832-945a-452e-b1e3-c130b0a74405")
+	)
+	(fp_line
+		(start 1.25 2.36)
+		(end -1.25 2.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2826ee69-1eed-4b01-af07-7f6125d160ce")
+	)
+	(fp_poly
+		(pts
+			(xy -1.77 -2.21) (xy -2.01 -2.54) (xy -1.53 -2.54) (xy -1.77 -2.21)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8362d46e-df37-47c5-ab26-3dbeaf275928")
+	)
+	(fp_line
+		(start -2.85 2.5)
+		(end -2.85 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f23b3fa-ceee-4f44-aad1-176daa3f9d2a")
+	)
+	(fp_line
+		(start -2.85 2.5)
+		(end 2.85 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37e406c2-c6f6-4d2e-afd1-955b622ab751")
+	)
+	(fp_line
+		(start 2.85 -2.5)
+		(end -2.85 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35f253a5-6a27-41b8-a654-c047bd3ad7d6")
+	)
+	(fp_line
+		(start 2.85 -2.5)
+		(end 2.85 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31a68c91-f8c8-4579-bc4e-863056fd9f00")
+	)
+	(fp_line
+		(start -1.25 -1.25)
+		(end -0.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab398939-c1ae-4d35-9b78-692cc23e316a")
+	)
+	(fp_line
+		(start -1.25 2.25)
+		(end -1.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b756a7c4-6186-4bee-bf6b-3bb8fc04d5a1")
+	)
+	(fp_line
+		(start -0.25 -2.25)
+		(end 1.25 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8fb5f55-dfe0-42ca-8958-73c77b4ef26d")
+	)
+	(fp_line
+		(start 1.25 -2.25)
+		(end 1.25 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ca26bcd-512e-44b5-854e-16566caaeafe")
+	)
+	(fp_line
+		(start 1.25 2.25)
+		(end -1.25 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3352a2f7-d965-4f51-bb67-8125d3fdda47")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 0 -90)
+		(layer "F.Fab")
+		(uuid "525a3433-fd3f-4d9b-a736-98f0e193aff2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.85 -1.5)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8268161b-b18e-417d-8e14-b1f612a49e45")
+	)
+	(pad "2" smd custom
+		(at 0 0)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.9 -0.5) (xy 2.6 -0.5) (xy 2.6 0.5) (xy 0.9 0.5) (xy 0.4 1) (xy -0.4 1) (xy -0.9 0.5) (xy -2.6 0.5)
+					(xy -2.6 -0.5) (xy -0.9 -0.5) (xy -0.4 -1) (xy 0.4 -1)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b6c90cee-dfb3-43f2-a1d9-c268e970bfe0")
+	)
+	(pad "3" smd roundrect
+		(at -1.85 1.5)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "bab07e3e-fe82-4c77-932f-84cd2a2dac74")
+	)
+	(pad "4" smd roundrect
+		(at 1.85 1.5)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "373d4f4c-90c7-43dd-8d89-1782c8ff34e9")
+	)
+	(pad "5" smd roundrect
+		(at 1.85 -1.5)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "bacdac9b-5c0d-477d-a01a-6fd491864ab4")
+	)
+	(model "${KIPRJMOD}/PicoADXL-Library.3dshapes/SOT89-5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model "${KIPRJMOD}/PicoADXL-Library.3dshapes/SOT-89-5.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

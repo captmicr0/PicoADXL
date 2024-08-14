@@ -1,0 +1,319 @@
+(footprint "WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WSON, 8 Pin (https://www.ti.com/lit/ds/symlink/lp2987.pdf#page=26), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "WSON NoLead")
+	(property "Reference" "REF**"
+		(at 1.75 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "eab80048-70ac-4ddf-804e-b354bb4b0b5b")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Value" "W25Q64JVXGIQ"
+		(at 0 2.95 0)
+		(layer "F.Fab")
+		(uuid "13cdbccf-16f6-4a18-a801-1eb3aee36797")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_SON:WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2236ff38-0173-4671-a7e8-2185833dc633")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2201121830_Winbond-Elec-W25Q64JVXGIQ_C2940195.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25254daa-35da-4322-8270-1aef3b845a0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3V 64M-BIT SERIAL FLASH MEMORY WITH DUAL, QUAD SPI"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49aaf06f-68d1-4543-82b8-b9ccabf7f556")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.89 -2.11)
+		(end 2 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "419be753-1f8e-40e5-b707-b0ab4598d30e")
+	)
+	(fp_line
+		(start -2 2.11)
+		(end 2 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d237d4b-e4e4-4000-afdd-ae70d211e1ab")
+	)
+	(fp_poly
+		(pts
+			(xy -2.13 -1.56) (xy -2.61 -1.56) (xy -2.13 -2.04) (xy -2.13 -1.56)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "6327da1a-61e4-4242-8e97-19a0b248d8f4")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7fa14c3-16ce-42e6-af1a-b1a72dc70f3d")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0cc0cdd5-371b-4be3-8f2b-3f3576db4667")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58d6636c-0d61-45de-b6b1-83a51d797e59")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94df912d-0fe2-4ec4-a932-db0c8328dc83")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06c27313-327a-43ae-b51a-a573bf70ee5f")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5ae180f-159c-47b7-825a-0a52ab7b93f1")
+	)
+	(fp_line
+		(start -1 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06159ae4-fb8c-491e-b680-96fe6de0414a")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "437333ec-85d5-47d3-a3d2-c5741e3f597b")
+	)
+	(fp_line
+		(start -2 -1)
+		(end -1 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b7e5ee7-033b-446c-a0bd-2bdf1f59a1ca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8793764a-32b0-44b4-ab21-fecdc8604ef7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.55 -0.75 180)
+		(size 0.89 1.21)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1ae710ff-1d3a-451e-8ef8-2e8d1073e339")
+	)
+	(pad "" smd roundrect
+		(at -0.55 0.75 180)
+		(size 0.89 1.21)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "377c9f4f-2f10-4f02-ac04-0ebdb3e962c3")
+	)
+	(pad "" smd roundrect
+		(at 0.55 -0.75 180)
+		(size 0.89 1.21)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5411c815-e927-4a97-9055-cdc17cea9b65")
+	)
+	(pad "" smd roundrect
+		(at 0.55 0.75 180)
+		(size 0.89 1.21)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a7f65d11-9ac7-4dc3-8fca-4057fff66cc1")
+	)
+	(pad "1" smd roundrect
+		(at -1.65 -1.2 180)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e4a8dfd0-ddc7-461f-9e4f-04ffaf584a94")
+	)
+	(pad "2" smd roundrect
+		(at -1.65 -0.4 180)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "7c69a7bc-761f-4aeb-95b7-0e1521c13146")
+	)
+	(pad "3" smd roundrect
+		(at -1.65 0.4 180)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a5534e53-af02-4d4a-8aa0-a03694d5ad38")
+	)
+	(pad "4" smd roundrect
+		(at -1.65 1.2 180)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "70d07272-74f5-4776-b26e-6b144c54d045")
+	)
+	(pad "5" smd roundrect
+		(at 1.65 1.2 180)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "22193751-5e10-453b-ba04-b63b4de03617")
+	)
+	(pad "6" smd roundrect
+		(at 1.65 0.4 180)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c1f2f07d-1754-4ac8-bf66-0fb65cd6bed2")
+	)
+	(pad "7" smd roundrect
+		(at 1.65 -0.4 180)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9ede1d79-7f38-4a53-a373-9c35f6f0b0b5")
+	)
+	(pad "8" smd roundrect
+		(at 1.65 -1.2 180)
+		(size 0.65 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "d992edaa-a269-4c66-9a5e-1a1a04a5d50d")
+	)
+	(pad "9" smd rect
+		(at 0 0 180)
+		(size 2.2 3)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 1)
+		(thermal_bridge_width 1)
+		(thermal_gap 0.127)
+		(uuid "d401d97a-0900-4c39-8694-66cab26c7a88")
+	)
+	(model "${KIPRJMOD}/PicoADXL-Library.3dshapes/WSON-8 (SDC08B).STEP"
+		(offset
+			(xyz -2 2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+	(model "${KIPRJMOD}/PicoADXL-Library.3dshapes/WSON-8-1EP_4x4mm_P0.8mm_EP2.2x3mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
